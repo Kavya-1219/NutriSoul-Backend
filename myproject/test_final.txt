@@ -1,0 +1,90 @@
+﻿py : Creating test 
+database for alias 
+'default'...
+At line:1 char:1
++ py manage.py test 
+user.tests_settings 
+2>&1 | Out-File 
+-FilePath test_ ...
++ ~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: (Creating test   
+  d...as 'default'.    
+..:String) [], Rem    
+oteException
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
+
+C:\Users\vkavy\OneDrive
+\Desktop\frontend_backe
+nd\django2\myproject\us
+er\services\food_scan_s
+ervice.py:6: 
+FutureWarning: 
+
+All support for the 
+`google.generativeai` 
+package has ended. It 
+will no longer be 
+receiving 
+updates or bug fixes. 
+Please switch to the 
+`google.genai` package 
+as soon as possible.
+See README for more 
+details:
+
+https://github.com/goog
+le-gemini/deprecated-ge
+nerative-ai-python/blob
+/main/README.md
+
+  import 
+google.generativeai as 
+genai
+.F....
+=======================
+=======================
+=======================
+=
+FAIL: test_change_passw
+ord_success (user.tests
+_settings.SettingsTests
+.test_change_password_s
+uccess)
+-----------------------
+-----------------------
+-----------------------
+-
+Traceback (most recent 
+call last):
+  File "C:\Users\vkavy\
+OneDrive\Desktop\fronte
+nd_backend\django2\mypr
+oject\user\tests_settin
+gs.py", line 52, in tes
+t_change_password_succe
+ss
+    self.assertTrue(sel
+f.user.check_password('
+NewPassword@456'))
+AssertionError: False 
+is not true
+
+-----------------------
+-----------------------
+-----------------------
+-
+Ran 6 tests in 5.804s
+
+FAILED (failures=1)
+Destroying test 
+database for alias 
+'default'...
+
+Found 6 test(s).
+System check identified no issues (0 silenced).
