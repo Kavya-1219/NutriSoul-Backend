@@ -1,0 +1,40 @@
+Field                     | Type            | Null  | Key   | Default    | Extra          
+-------------------------------------------------------------------------------------
+id                        | bigint          | NO    | PRI   | None       | auto_increment 
+full_name                 | varchar(255)    | NO    |       | None       |                
+age                       | int unsigned    | NO    |       | None       |                
+gender                    | varchar(10)     | NO    |       | None       |                
+user_id                   | int             | NO    | UNI   | None       |                
+bmi                       | double          | YES   |       | None       |                
+height                    | double          | YES   |       | None       |                
+height_unit               | varchar(5)      | NO    |       | None       |                
+weight                    | double          | YES   |       | None       |                
+weight_unit               | varchar(5)      | NO    |       | None       |                
+diet_type                 | varchar(20)     | YES   |       | None       |                
+food_allergies            | longtext        | YES   |       | None       |                
+food_dislikes             | longtext        | YES   |       | None       |                
+activity_level            | varchar(50)     | YES   |       | None       |                
+goal                      | varchar(50)     | YES   |       | None       |                
+target_weight             | double          | YES   |       | None       |                
+cholesterol_level         | varchar(50)     | NO    |       | None       |                
+diabetes_type             | varchar(50)     | YES   |       | None       |                
+diastolic_bp              | int             | YES   |       | None       |                
+health_conditions         | longtext        | YES   |       | None       |                
+other_allergies           | longtext        | YES   |       | None       |                
+systolic_bp               | int             | YES   |       | None       |                
+thyroid_type              | varchar(100)    | YES   |       | None       |                
+meals_per_day             | int unsigned    | YES   |       | None       |                
+todays_calories           | double          | NO    |       | None       |                
+todays_steps              | int unsigned    | NO    |       | None       |                
+todays_water_intake       | int unsigned    | NO    |       | None       |                
+allergies                 | json            | YES   |       | None       |                
+current_weight            | double          | YES   |       | None       |                
+dark_mode                 | tinyint(1)      | NO    |       | None       |                
+dietary_restrictions      | json            | YES   |       | None       |                
+profile_picture           | varchar(100)    | YES   |       | None       |                
+target_calories           | int unsigned    | NO    |       | None       |                
+target_weeks              | int unsigned    | NO    |       | None       |                
+bmr                       | int unsigned    | NO    |       | None       |                
+dislikes                  | json            | NO    |       | _utf8mb4\'[]\' | DEFAULT_GENERATED
+goals                     | json            | NO    |       | _utf8mb4\'[]\' | DEFAULT_GENERATED
+timeline_start_date       | date            | YES   |       | None       |                
